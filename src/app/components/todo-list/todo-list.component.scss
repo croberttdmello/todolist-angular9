@@ -1,0 +1,117 @@
+// General styles
+
+.green {background: rgba(23, 85, 23, 0.753);}
+.blue {background: rgba(45, 45, 151, 0.753);}
+.red {background: rgba(131, 44, 44, 0.753);}
+
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button {
+  color: white;
+  font-size: 12px;
+  width: 40px;
+  height: 30px;
+  margin: 2px;
+  border: none;
+  border-radius: 5%;
+  box-shadow: 2px 2px 5px #888888;
+  text-align: center;
+}
+
+input {
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+.checkbox-inline {
+  margin-right: 10px;
+}
+
+
+//Menu
+.menu {
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.menu-input {
+  display: flex;
+  align-items: center;
+}
+
+.menu-input h2 {
+  margin-right: 10px;
+}
+
+.menu-input input {
+  border: none;
+  width: 250px;
+  height: 40px;
+  box-shadow: 2px 2px 5px #888888;
+}
+
+.menu-input button {
+  margin-left: 20px ;
+}
+
+.menu-search {
+  border: none;
+  width: 105px;
+  height: 40px;
+  box-shadow: 2px 2px 5px #888888;
+}
+
+
+// List Tasks
+
+.tasks {
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.completed {
+  text-decoration: line-through;
+  opacity: 50%;
+}
+
+// Tasks Completed
+
+.count-items {
+  opacity: 50%;
+}
+
+.tasks-completed {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tasks-completed span {
+  opacity: 50%;
+}
+
+// Tasks Info
+
+.tasks-info {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tasks-info button {
+  background: #222222;
+  width: 110px;
+  opacity: 73%;
+}
