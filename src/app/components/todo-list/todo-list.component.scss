@@ -1,12 +1,17 @@
 // General styles
 
-.green {background: rgba(23, 85, 23, 0.753);}
-.blue {background: rgba(45, 45, 151, 0.753);}
-.red {background: rgba(131, 44, 44, 0.753);}
-
+.green {
+  background: rgba(23, 85, 23, 0.753);
+}
+.blue {
+  background: rgba(45, 45, 151, 0.753);
+}
+.red {
+  background: rgba(131, 44, 44, 0.753);
+}
 
 body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 button {
@@ -39,8 +44,8 @@ h2 {
   margin-right: 10px;
 }
 
-
 //Menu
+
 .menu {
   justify-content: space-between;
   align-items: center;
@@ -59,21 +64,13 @@ h2 {
 .menu-input input {
   border: none;
   width: 250px;
-  height: 40px;
+  height: 30px;
   box-shadow: 2px 2px 5px #888888;
 }
 
 .menu-input button {
-  margin-left: 20px ;
+  margin-left: 5px;
 }
-
-.menu-search {
-  border: none;
-  width: 105px;
-  height: 40px;
-  box-shadow: 2px 2px 5px #888888;
-}
-
 
 // List Tasks
 
@@ -81,7 +78,6 @@ h2 {
   justify-content: space-between;
   align-items: center;
 }
-
 
 .completed {
   text-decoration: line-through;
